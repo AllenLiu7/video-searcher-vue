@@ -7,8 +7,8 @@
 </template>
 
 <script>
-import SearchBar from './components/search-bar'
-import VideoList from './components/videoList'
+import SearchBar from './components/SearchBar'
+import VideoList from './components/VideoList'
 import axios from 'axios'
 const API_KEY = "AIzaSyC5CzI-6oLxhMrsxmTFC6UmKSzZYkL84VI"
 
