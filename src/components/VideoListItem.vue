@@ -4,8 +4,9 @@
       <img :src="thumbnailUrl" alt="image" />
     </div>
     <div class="media-body">
-      <h4>Heading</h4>
-      {{ video.snippet.title }}
+      <h4>
+        {{ video.snippet.title }}
+      </h4>
     </div>
   </li>
 </template>

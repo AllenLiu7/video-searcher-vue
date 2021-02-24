@@ -1,5 +1,6 @@
 <template>
   <div class="container">
+    <h1>Search Video</h1>
     <SearchBar @termChange="onTermChange" />
     <div class="row">
       <VideoDetail :video="video" />
@@ -51,5 +52,14 @@ export default {
 </script>
 
 <style>
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+h1 {
+  align-self: center;
+}
 </style>
 
